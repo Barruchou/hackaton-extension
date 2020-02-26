@@ -2,7 +2,7 @@ var isFirefox = navigator.userAgent.toLowerCase().indexOf("firefox") > -1;
 
 if (isFirefox) {
   browser.tabs.onCreated.addListener(function() {
-    alert("On Firefox");
+    // alert("On Firefox");
   });
   browser.browserAction.onClicked.addListener(function() {
     browser.tabs
@@ -20,7 +20,7 @@ if (isFirefox) {
   });
 } else {
   chrome.tabs.onCreated.addListener(function() {
-    alert("On Chrome");
+    // alert("On Chrome");
   });
   chrome.browserAction.onClicked.addListener(function() {
     chrome.tabs.create(

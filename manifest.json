@@ -12,10 +12,11 @@
       "browser_style": true
   },
   "permissions" : [
-    "tabs"
+    "tabs",
+    "activeTab"
   ],
   "background" : {
-    "scripts" : ["assets/js/custom.js"]
+    "scripts" : ["./assets/js/background.js"]
   },
-  "web_accessible_resources": ["assets/img/avatar.png"]
+  "web_accessible_resources": ["./assets/img/avatar.png"]
 }
