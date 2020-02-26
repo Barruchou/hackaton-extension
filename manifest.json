@@ -1,0 +1,21 @@
+
+{
+  "manifest_version": 2,
+  "name": "Test",
+  "description": "Neos alpha!",
+  "version": "1.0",
+  "chrome_url_overrides" : {
+    "newtab" : "template/index.html"
+  },
+  "browser_action": {
+      "default_title": "Bienvenue",
+      "browser_style": true
+  },
+  "permissions" : [
+    "tabs"
+  ],
+  "background" : {
+    "scripts" : ["assets/js/custom.js"]
+  },
+  "web_accessible_resources": ["assets/img/avatar.png"]
+}
