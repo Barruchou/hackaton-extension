@@ -5,13 +5,13 @@
   "description": "Neos alpha!",
   "version": "1.0",
   "chrome_url_overrides" : {
-    "newtab" : "template/index.html"
+    "newtab" : "./template/index.html"
   },
   "icons": {
-    "32": "assets/img/32px_neos.png",
-    "64": "assets/img/64px_neos.png",
-    "128": "assets/img/128px_neos.png",
-    "256": "assets/img/256px_neos.png"
+    "32": "./assets/img/32px_neos.png",
+    "64": "./assets/img/64px_neos.png",
+    "128": "./assets/img/128px_neos.png",
+    "256": "./assets/img/256px_neos.png"
   },
   "browser_action": {
       "default_title": "Bienvenue",
