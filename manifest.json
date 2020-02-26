@@ -15,6 +15,7 @@
   },
   "browser_action": {
       "default_title": "Bienvenue",
+      "default_icon": "./assets/img/32px_neos.png",
       "browser_style": true
   },
   "permissions" : [
