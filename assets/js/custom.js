@@ -1,19 +1,26 @@
-var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+var isFirefox = navigator.userAgent.toLowerCase().indexOf("firefox") > -1;
 
 if (isFirefox) {
-    browser.browserAction.onClicked.addListener(function () {
-
-        alert("On Firefox");
-        var creating = browser.tabs.create({
-            url: "./../template/index.html"
-        }); 
-        creating.then(onCreated, onError);
-    });
+  browser.tabs.onCreated.addListener(function() {
+    alert("On Firefox");
+  });
+  browser.browserAction.onClicked.addListener(function() {
+    browser.tabs.create({ url: "./../template/index.html" }).then(
+      function(tab) {
+        console.log(tab.id);
+      },
+      function(error) {
+        console.log(error);
+      }
+    );
+  });
 } else {
-    chrome.browserAction.onClicked.addListener(function () {
-        chrome.tabs.create({
-            'url': "chrome://newtab"
-        })
-        alert("On Chrome");
+  chrome.tabs.onCreated.addListener(function() {
+    alert("On Chrome");
+  });
+  chrome.browserAction.onClicked.addListener(function() {
+    chrome.tabs.create({ url: "chrome://newtab" }, function(tab) {
+      console.log(tab.id);
     });
+  });
 }
