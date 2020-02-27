@@ -1,24 +1,24 @@
 [
   {
-    "image": "./../assets/svg/energy.svg",
+    "image": "./../assets/svg/fridge.svg",
     "fact": "Un ordinateur emet 169kg de CO2 sur l’ensemble de son cycle de vie.",
     "tip": "Privilégiez les appareils reconditionnés (backmarket...)",
     "category": "Impact environnement"
   },
   {
-    "image": "./../assets/svg/energy.svg",
+    "image": "./../assets/svg/fridge.svg",
     "fact": "10g de Co2 c'est ce qu'emet une seule recherche sur Google. Chaque utilisateur de Google émet donc environ 10kg de CO2 par an",
     "tip": "Utiliser un moteur de recherche éthique (ecosia, lilo, ...)",
     "category": "Moteur de recherche"
   },
   {
-    "image": "./../assets/svg/energy.svg",
+    "image": "./../assets/svg/fridge.svg",
     "fact": "Les vidéos porno représentent 27 % du trafic vidéo en ligne, ce qui représente 82 millions de tonnes de CO2 chaque année soit autant que le secteur de l’habitat en France.",
     "tip": "Limiter le porno, privilégier le contact humain",
     "category": "Info insolite"
   },
   {
-    "image": "./../assets/svg/energy.svg",
+    "image": "./../assets/svg/fridge.svg",
     "fact": "Envoyez 20 e-mails par jour pendant 1 an pollue autant que parcourir 1000 km en voiture",
     "tip": "Limitez les mails inutiles",
     "category": "Services mail"
@@ -96,37 +96,37 @@
     "category": "Services mail"
   },
   {
-    "image": "./../assets/svg/cars.svg",
+    "image": "./../assets/svg/fridge.svg",
     "fact": "Multiplier par 10 le nombre des destinataires d’un mail multiplie par 4 son impact.",
     "tip": "Réduisez au maximum les messages inutiles, notamment ceux destinés à vos collègues : privilégiez les contacts directs l’humain dans la mesure du possible, et réfléchissez bien aux destinataires en copie.",
     "category": "Services mail"
   },
   {
-    "image": "./../assets/svg/cars.svg",
+    "image": "./../assets/svg/fridge.svg",
     "fact": "30 mails supprimés équivaut à économiser 24h de consommation d'une ampoule",
     "tip": "Utilisez une messagerie d’entreprise comme Slack, moins énergivore que les e-mails.",
     "category": "Services mail"
   },
   {
-    "image": "./../assets/svg/cars.svg",
+    "image": "./../assets/svg/fridge.svg",
     "fact": "L’impact d’une requête web dépend du temps de recherche et du nombre de pages consultées. On divise par 4 les émissions de gaz à effet de serre en allant directement à l’adresse du site.",
     "tip": "Pensez à fermer régulièrement les onglets que vous n’utilisez pas.",
     "category": "Moteur de recherche"
   },
   {
-    "image": "./../assets/svg/cars.svg",
+    "image": "./../assets/svg/fridge.svg",
     "fact": "Google Chrome est le navigateur le plus énergivore",
     "tip": "Utiliser la fonction favoris pour accéder à vos sites et non la barre de recherche cela vous permettra d'utiliser 4 fois moins d'énergies",
     "category": "Moteur de recherche"
   },
   {
-    "image": "./../assets/svg/cars.svg",
+    "image": "./../assets/svg/fridge.svg",
     "fact": "Le secteur numérique est responsable de 4% des émissions de gaz à effet de serre.",
     "tip": "Chez vous, lorsque vous n’êtes pas là, vous pouvez éteindre votre box et les autres appareils électroniques connectés qui consomment inutilement de l’énergie.",
     "category": "Impact environnement"
   },
   {
-    "image": "./../assets/svg/cars.svg",
+    "image": "./../assets/svg/fridge.svg",
     "fact": "Un email stocké pendant un an génére 10g de CO2",
     "tip": "Faire le tri, en supprimant certains mails est indispensable",
     "category": "Services mail"

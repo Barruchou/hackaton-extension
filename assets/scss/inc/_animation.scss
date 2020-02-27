@@ -1,4 +1,8 @@
 // CARS ANIMATION START
+body {
+  width: 50%;
+}
+
 @keyframes car_1 {
   0% {
     opacity: 0;
@@ -10,9 +14,9 @@
 
 #car_1 {
   transform-origin: center;
-  -webkit-animation: car_1 1s infinite; /* Safari 4+ */
-  -moz-animation: car_1 1s infinite; /* Fx 5+ */
-  -o-animation: car_1 1s infinite; /* Opera 12+ */
+  -webkit-animation: car_1 2s infinite; /* Safari 4+ */
+  -moz-animation: car_1 2s infinite; /* Fx 5+ */
+  -o-animation: car_1 2s infinite; /* Opera 12+ */
   animation: car_1 2s infinite; /* IE 10+, Fx 29+ */
 }
 
@@ -27,9 +31,9 @@
 
 #car_2 {
   transform-origin: center;
-  -webkit-animation: car_2 1s infinite; /* Safari 4+ */
-  -moz-animation: car_2 1s infinite; /* Fx 5+ */
-  -o-animation: car_2 1s infinite; /* Opera 12+ */
+  -webkit-animation: car_2 3s infinite; /* Safari 4+ */
+  -moz-animation: car_2 3s infinite; /* Fx 5+ */
+  -o-animation: car_2 3s infinite; /* Opera 12+ */
   animation: car_2 3s infinite; /* IE 10+, Fx 29+ */
 }
 
@@ -38,15 +42,15 @@
     transform: translate(290px, 0%);
   }
   100% {
-    transform: translate(-500px, 0%);
+    transform: translate(-375px, 0%);
   }
 }
 
 #car_3 {
   transform-origin: center;
-  -webkit-animation: car_3 1s infinite; /* Safari 4+ */
-  -moz-animation: car_3 1s infinite; /* Fx 5+ */
-  -o-animation: car_3 1s infinite; /* Opera 12+ */
+  -webkit-animation: car_3 4s infinite; /* Safari 4+ */
+  -moz-animation: car_3 4s infinite; /* Fx 5+ */
+  -o-animation: car_3 4s infinite; /* Opera 12+ */
   animation: car_3 4s infinite; /* IE 10+, Fx 29+ */
 }
 
@@ -55,21 +59,21 @@
     transform: translate(500px, 0%);
   }
   100% {
-    transform: translate(-230px, 0%);
+    transform: translate(-200px, 0%);
   }
 }
 
 #car_4 {
   transform-origin: center;
-  -webkit-animation: car_4 1s infinite; /* Safari 4+ */
-  -moz-animation: car_4 1s infinite; /* Fx 5+ */
-  -o-animation: car_4 1s infinite; /* Opera 12+ */
+  -webkit-animation: car_4 3s infinite; /* Safari 4+ */
+  -moz-animation: car_4 3s infinite; /* Fx 5+ */
+  -o-animation: car_4 3s infinite; /* Opera 12+ */
   animation: car_4 3s infinite; /* IE 10+, Fx 29+ */
 }
 
 @keyframes car_4 {
   0% {
-    transform: translate(-490px, 0%);
+    transform: translate(-375px, 0%);
   }
   100% {
     transform: translate(230px, 0%);
@@ -78,15 +82,15 @@
 
 #car_5 {
   transform-origin: center;
-  -webkit-animation: car_5 1s infinite; /* Safari 4+ */
-  -moz-animation: car_5 1s infinite; /* Fx 5+ */
-  -o-animation: car_5 1s infinite; /* Opera 12+ */
+  -webkit-animation: car_5 4s infinite; /* Safari 4+ */
+  -moz-animation: car_5 4s infinite; /* Fx 5+ */
+  -o-animation: car_5 4s infinite; /* Opera 12+ */
   animation: car_5 4s infinite; /* IE 10+, Fx 29+ */
 }
 
 @keyframes car_5 {
   0% {
-    transform: translate(-300px, 0%);
+    transform: translate(-275px, 0%);
   }
   100% {
     transform: translate(370px, 0%);
@@ -188,3 +192,88 @@
 }
 
 // ENERGY ANIMATION END
+
+
+// FRIDGE ANIMATION START
+@keyframes youtube {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#youtube {
+  transform-origin: center;
+  -webkit-animation: youtube 5s infinite; /* Safari 4+ */
+  -moz-animation: youtube 5s infinite; /* Fx 5+ */
+  -o-animation: youtube 5s infinite; /* Opera 12+ */
+  animation: youtube 5s infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes youtube {
+  0% {
+    transform: rotate(-0.02turn);
+  }
+  25% {
+    transform: rotate(0.15turn);
+  }
+  45% {
+    transform: rotate(-0.02turn);
+  }
+  100% {
+    transform: rotate(-0.02turn);
+  }
+}
+
+#netflix {
+  transform-origin: center;
+  -webkit-animation: netflix 4s infinite; /* Safari 4+ */
+  -moz-animation: netflix 4s infinite; /* Fx 5+ */
+  -o-animation: netflix 4s infinite; /* Opera 12+ */
+  animation: netflix 4s infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes netflix {
+  0% {
+    transform: translate(160px, 0%);
+  }
+  25% {
+    transform: translate(0px, 0%);
+  }
+  45% {
+    transform: translate(0px, 0%);
+  }
+  100% {
+    transform: translate(160px, 0%);
+  }
+}
+
+#twitch {
+  transform-origin: center;
+  -webkit-animation: twitch 3s infinite; /* Safari 4+ */
+  -moz-animation: twitch 3s infinite; /* Fx 5+ */
+  -o-animation: twitch 3s infinite; /* Opera 12+ */
+  animation: twitch 3s infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes twitch {
+  0% {
+    transform: translate(0px, 0%);
+  }
+  37% {
+    transform: translate(0px, 0%);
+  }
+  54% {
+    transform: translate(160px, 0%);
+  }
+  80% {
+    transform: translate(0px, 0%);
+  }
+  100% {
+    transform: translate(0px, 0%);
+  }
+}
+
+// FRIDGE ANIMATION END
