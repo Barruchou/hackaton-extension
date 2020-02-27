@@ -1,0 +1,100 @@
+body {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: $noir;
+    color: $blanc;
+
+
+    &.popup {
+        width: 480px;
+        height: 240px;
+    }
+
+    nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-left: 5%;
+        padding-top: 5%;
+
+        img {
+            max-width: 7%;
+        }
+    }
+
+    .wrapper {
+        font-family: $OpenSans;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+        &>div {
+            width: 630px;
+        }
+
+        .animation {
+            width: 30%;
+            height: 30%;
+            background-color: $gris;
+            margin-bottom: 3%;
+        }
+
+        .fact {
+            margin-bottom: 1.5%;
+
+            h1 {
+                font-weight: bold;
+                font-size: 1.65em;
+                line-height: 1.3em;
+            }
+        }
+
+        .solution {
+            margin-bottom: 4%;
+
+            .label {
+                display: block;
+                font-family: $Bree;
+                color: $gris;
+                font-size: 2.5em;
+                margin-bottom: 2%;
+            }
+
+            p {
+                font-size: 1.65em;
+                line-height: 1.2em;
+            }
+        }
+
+        .call-to-action {
+            text-align: center;
+
+            a {
+                font-size: 1.5em;
+                font-family: $Bree;
+                background-color: $vert;
+                color: $blanc;
+                text-decoration: none;
+                padding: .3em 1.4em;
+                border-top-right-radius: 100px;
+                border-bottom-left-radius: 100px;
+                border-bottom-right-radius: 100px;
+                transition: all .4s ease-in-out;
+
+                &:hover{
+                    border-top-left-radius: 100px;
+                    background-color: $blanc;
+                    color: $vert;
+                }
+            }
+        }
+    }
+}
