@@ -497,13 +497,11 @@ textarea {
     transform: translate(370px, 0%);
   }
 }
-html.popup {
-  font-size: 8px;
-}
 html.popup body {
   width: 480px;
+  height: auto;
   min-height: 240px;
-  padding: 4rem;
+  padding: 2rem;
 }
 html.popup body .wrapper {
   height: auto;
@@ -511,8 +509,7 @@ html.popup body .wrapper {
   padding: 0;
 }
 html.popup body .wrapper .call-to-action a {
-  padding: 0.66rem 2rem;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 body {
@@ -520,8 +517,7 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
-  min-height: 100vh;
-  height: auto;
+  height: 100vh;
   margin: 0;
   padding: 2rem;
   background-color: #333333;
@@ -540,10 +536,10 @@ body nav img {
 }
 body .wrapper {
   font-family: "OpenSans";
-  width: 75%;
+  width: 80%;
   min-width: 320px;
   max-width: 768px;
-  height: 100%;
+  height: auto;
   margin: 0 auto;
 }
 @media (max-width: 520px) {
@@ -552,38 +548,53 @@ body .wrapper {
   }
 }
 body .wrapper .animation {
-  width: 100%;
+  width: 50vw;
   height: auto;
-  margin-bottom: 3rem;
+  margin: 0 auto 2.5vw auto;
 }
 body .wrapper .fact {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2vw;
 }
 body .wrapper .fact h1 {
   font-weight: bold;
-  font-size: 1.65rem;
+  font-size: 2.5vw;
   line-height: 1.3;
 }
+@media (max-width: 640px) {
+  body .wrapper .fact h1 {
+    font-size: 1rem;
+  }
+}
 body .wrapper .tip {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2vw;
 }
 body .wrapper .tip .label {
   display: block;
   font-family: "BreeSerif";
   color: #999999;
-  font-size: 2.5rem;
+  font-size: 3vw;
   margin-bottom: 1rem;
 }
+@media (max-width: 680px) {
+  body .wrapper .tip .label {
+    font-size: 1.25rem;
+  }
+}
 body .wrapper .tip p {
-  font-size: 1.65rem;
+  font-size: 1.5vw;
   line-height: 1.2;
+}
+@media (max-width: 800px) {
+  body .wrapper .tip p {
+    font-size: 0.75rem;
+  }
 }
 body .wrapper .call-to-action {
   text-align: center;
 }
 body .wrapper .call-to-action a {
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-family: "BreeSerif";
   background-color: #55B55B;
   color: #EEEEEE;
@@ -598,6 +609,11 @@ body .wrapper .call-to-action a:hover {
   border-top-left-radius: 100px;
   background-color: #EEEEEE;
   color: #55B55B;
+}
+@media (max-width: 800px) {
+  body .wrapper .call-to-action a {
+    font-size: 0.75rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
