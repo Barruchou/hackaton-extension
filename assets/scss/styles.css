@@ -29,8 +29,7 @@ time, mark, audio, video {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -53,7 +52,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -74,6 +73,7 @@ input[type=search] {
   -webkit-appearance: none;
   -moz-appearance: none;
   -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -241,9 +241,9 @@ select {
  *    Known issue: inner spacing remains in IE 6.
  */
 button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+html input[type=button],
+input[type=reset],
+input[type=submit] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
@@ -266,10 +266,9 @@ html input[disabled] {
  * 3. Remove excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-input[type="checkbox"],
-input[type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+input[type=checkbox],
+input[type=radio] {
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
@@ -284,9 +283,10 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-input[type="search"] {
+input[type=search] {
   -webkit-appearance: textfield;
   /* 1 */
+  -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box;
@@ -296,8 +296,8 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -375,7 +375,6 @@ textarea {
   font-display: swap;
   font-style: normal;
 }
-
 @font-face {
   font-family: "OpenSans";
   src: local("Open Sans"), local("OpenSans-Regular"), url("./../fonts/OpenSans-Regular.ttf") format("ttf");
@@ -383,7 +382,6 @@ textarea {
   font-display: swap;
   font-style: normal;
 }
-
 @font-face {
   font-family: "OpenSans";
   src: local("Open Sans"), local("OpenSans-Bold"), url("./../fonts/OpenSans-Bold.ttf") format("ttf");
@@ -391,4 +389,5 @@ textarea {
   font-display: swap;
   font-style: normal;
 }
+
 /*# sourceMappingURL=styles.css.map */
