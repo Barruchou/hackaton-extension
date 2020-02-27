@@ -1,0 +1,96 @@
+// CARS ANIMATION START
+@keyframes car_1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#car_1 {
+  transform-origin: center;
+  -webkit-animation: car_1 1s infinite; /* Safari 4+ */
+  -moz-animation: car_1 1s infinite; /* Fx 5+ */
+  -o-animation: car_1 1s infinite; /* Opera 12+ */
+  animation: car_1 2s infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes car_1 {
+  0% {
+    transform: translate(60px, 0%);
+  }
+  100% {
+    transform: translate(-400px, 0%);
+  }
+}
+
+#car_2 {
+  transform-origin: center;
+  -webkit-animation: car_2 1s infinite; /* Safari 4+ */
+  -moz-animation: car_2 1s infinite; /* Fx 5+ */
+  -o-animation: car_2 1s infinite; /* Opera 12+ */
+  animation: car_2 3s infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes car_2 {
+  0% {
+    transform: translate(290px, 0%);
+  }
+  100% {
+    transform: translate(-500px, 0%);
+  }
+}
+
+#car_3 {
+  transform-origin: center;
+  -webkit-animation: car_3 1s infinite; /* Safari 4+ */
+  -moz-animation: car_3 1s infinite; /* Fx 5+ */
+  -o-animation: car_3 1s infinite; /* Opera 12+ */
+  animation: car_3 4s infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes car_3 {
+  0% {
+    transform: translate(500px, 0%);
+  }
+  100% {
+    transform: translate(-230px, 0%);
+  }
+}
+
+#car_4 {
+  transform-origin: center;
+  -webkit-animation: car_4 1s infinite; /* Safari 4+ */
+  -moz-animation: car_4 1s infinite; /* Fx 5+ */
+  -o-animation: car_4 1s infinite; /* Opera 12+ */
+  animation: car_4 3s infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes car_4 {
+  0% {
+    transform: translate(-490px, 0%);
+  }
+  100% {
+    transform: translate(230px, 0%);
+  }
+}
+
+#car_5 {
+  transform-origin: center;
+  -webkit-animation: car_5 1s infinite; /* Safari 4+ */
+  -moz-animation: car_5 1s infinite; /* Fx 5+ */
+  -o-animation: car_5 1s infinite; /* Opera 12+ */
+  animation: car_5 4s infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes car_5 {
+  0% {
+    transform: translate(-300px, 0%);
+  }
+  100% {
+    transform: translate(370px, 0%);
+  }
+}
+
+// CARS ANIMATION END
