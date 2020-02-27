@@ -511,8 +511,8 @@ html.popup body .wrapper {
   padding: 0;
 }
 html.popup body .wrapper .call-to-action a {
-  padding: 1rem 3rem;
-  font-size: 3rem;
+  padding: 0.66rem 2rem;
+  font-size: 2rem;
 }
 
 body {
