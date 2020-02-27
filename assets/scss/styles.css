@@ -510,6 +510,10 @@ html.popup body .wrapper {
   width: 100%;
   padding: 0;
 }
+html.popup body .wrapper .call-to-action a {
+  padding: 1rem 3rem;
+  font-size: 3rem;
+}
 
 body {
   position: relative;

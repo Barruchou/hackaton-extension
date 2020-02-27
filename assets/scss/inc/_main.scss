@@ -10,6 +10,11 @@ html.popup{
             height: auto;
             width: 100%;
             padding: 0;
+
+            .call-to-action a{
+                padding: 1rem 3rem;
+                font-size: 3rem;
+            }
         }
     }
 }
