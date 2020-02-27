@@ -277,3 +277,145 @@ body {
 }
 
 // FRIDGE ANIMATION END
+
+// COMPUTER ANIMATION START
+@keyframes liens {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#poison {
+  transform-origin: center;
+  -webkit-animation: poison 3s infinite; /* Safari 4+ */
+  -moz-animation: poison 3s infinite; /* Fx 5+ */
+  -o-animation: poison 3s infinite; /* Opera 12+ */
+  animation: poison 3s infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes poison {
+  0% {
+    transform: rotate(-0.001turn);
+  }
+  27% {
+    transform: rotate(-0.007turn);
+  }
+  46% {
+    transform: rotate(-0.001turn);
+  }
+  77% {
+    transform: rotate(-0.007turn);
+  }
+  100% {
+    transform: rotate(-0.001turn);
+  }
+}
+
+#bidon {
+  transform-origin: center;
+  -webkit-animation: bidon 3.5s infinite; /* Safari 4+ */
+  -moz-animation: bidon 3.5s infinite; /* Fx 5+ */
+  -o-animation: bidon 3.5s infinite; /* Opera 12+ */
+  animation: bidon 3.5s infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes bidon {
+  0% {
+    transform: rotate(0.00turn);
+  }
+  29% {
+    transform: rotate(-0.007turn);
+  }
+  55% {
+    transform: rotate(0.00turn);
+  }
+  72% {
+    transform: rotate(-0.007turn);
+  }
+  100% {
+    transform: rotate(0.00turn);
+  }
+}
+
+#bouteille {
+  transform-origin: center;
+  -webkit-animation: bouteille 3s infinite; /* Safari 4+ */
+  -moz-animation: bouteille 3s infinite; /* Fx 5+ */
+  -o-animation: bouteille 3s infinite; /* Opera 12+ */
+  animation: bouteille 3s infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes bouteille {
+  0% {
+    transform: rotate(0.00turn);
+  }
+  46% {
+    transform: rotate(0.006turn);
+  }
+  51% {
+    transform: rotate(0.00turn);
+  }
+  80% {
+    transform: rotate(0.006turn);
+  }
+  100% {
+    transform: rotate(0.00turn);
+  }
+}
+
+#charbon {
+  transform-origin: center;
+  -webkit-animation: charbon 3s infinite; /* Safari 4+ */
+  -moz-animation: charbon 3s infinite; /* Fx 5+ */
+  -o-animation: charbon 3s infinite; /* Opera 12+ */
+  animation: charbon 3s infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes charbon {
+  0% {
+    transform: rotate(0.00turn);
+  }
+  45% {
+    transform: rotate(0.005turn);
+  }
+  60% {
+    transform: rotate(0.00turn);
+  }
+  84% {
+    transform: rotate(0.005turn);
+  }
+  100% {
+    transform: rotate(0.00turn);
+  }
+}
+
+#gaz {
+  transform-origin: center;
+  -webkit-animation: gaz 3s infinite; /* Safari 4+ */
+  -moz-animation: gaz 3s infinite; /* Fx 5+ */
+  -o-animation: gaz 3s infinite; /* Opera 12+ */
+  animation: gaz 3s infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes gaz {
+  0% {
+    transform: rotate(0.00turn);
+  }
+  34% {
+    transform: rotate(0.007turn);
+  }
+  48% {
+    transform: rotate(0.00turn);
+  }
+  73% {
+    transform: rotate(0.007turn);
+  }
+  100% {
+    transform: rotate(0.00turn);
+  }
+}
+
+// COMPUTER ANIMATION END
