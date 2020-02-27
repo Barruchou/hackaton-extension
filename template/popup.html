@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="popup">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Popup</title>
-    <link rel="icon" type="image/png" href="../assets/img/32px_neos.png" />
-    <link rel="stylesheet" href="../assets/css/content.css">
+    <title>Neos | Popup</title>
+    <link rel="stylesheet" href="../assets/scss/styles.css">
     <script src="../assets/js/content.js"></script>
 </head>
-<body class="popup">
-    <main class="wrapper">
-        <div class="fact">
-            <h1>Hello world</h1>
-        </div>
-        <div class="solution">
-            <p>Je suis un astuce</p>
-        </div>
-        <div class="call-to-action">
-            <a href="" target="_blank">Neos</a>
-        </div>
-    </main>
+<body>
+<main class="wrapper">
+    <div id="animation" class="animation"></div>
+    <div class="fact">
+        <h1 id="fact"></h1>
+    </div>
+    <div class="tip">
+        <span class="label">Alors, que faire ?</span>
+        <p id="tip"></p>
+    </div>
+    <div class="call-to-action">
+        <a href="" target="_blank">Découvrir d'autres tips</a>
+    </div>
+</main>
 </body>
 </html>

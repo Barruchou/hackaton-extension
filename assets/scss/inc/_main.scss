@@ -1,3 +1,19 @@
+html.popup{
+    font-size: 8px;
+
+    body {
+        width: 480px;
+        min-height: 240px;
+        padding: 4rem;
+
+        .wrapper{
+            height: auto;
+            width: 100%;
+            padding: 0;
+        }
+    }
+}
+
 body {
     position: relative;
     display: flex;
@@ -9,12 +25,6 @@ body {
     padding: 2rem;
     background-color: $noir;
     color: $blanc;
-
-
-    &.popup {
-        width: 480px;
-        height: 240px;
-    }
 
     nav {
         position: absolute;
@@ -32,10 +42,6 @@ body {
 
     .wrapper {
         font-family: $OpenSans;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         width: 75%;
         min-width: 320px;
         max-width: 768px;
@@ -49,11 +55,11 @@ body {
         .animation {
             width: 100%;
             height: auto;
-            margin-bottom: 1.5rem;
+            margin-bottom: 3rem;
         }
 
         .fact {
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
 
             h1 {
                 font-weight: bold;
