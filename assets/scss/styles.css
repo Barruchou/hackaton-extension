@@ -497,6 +497,106 @@ textarea {
     transform: translate(370px, 0%);
   }
 }
+@keyframes eclair1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#eclair1 {
+  transform-origin: center;
+  -webkit-animation: eclair1 1s infinite;
+  /* Safari 4+ */
+  -moz-animation: eclair1 1s infinite;
+  /* Fx 5+ */
+  -o-animation: eclair1 1s infinite;
+  /* Opera 12+ */
+  animation: eclair1 1s infinite;
+  /* IE 10+, Fx 29+ */
+}
+
+@keyframes eclair1 {
+  0% {
+    transform: translate(0px, 0%);
+  }
+  50% {
+    transform: translate(10px, 0%);
+  }
+  100% {
+    transform: translate(0px, 0%);
+  }
+}
+#eclair2 {
+  transform-origin: center;
+  -webkit-animation: eclair2 0.9s infinite;
+  /* Safari 4+ */
+  -moz-animation: eclair2 0.9s infinite;
+  /* Fx 5+ */
+  -o-animation: eclair2 0.9s infinite;
+  /* Opera 12+ */
+  animation: eclair2 0.9s infinite;
+  /* IE 10+, Fx 29+ */
+}
+
+@keyframes eclair2 {
+  0% {
+    transform: translate(0px, 0%);
+  }
+  50% {
+    transform: translate(5px, 5px);
+  }
+  100% {
+    transform: translate(0px, 0%);
+  }
+}
+#eclair3 {
+  transform-origin: center;
+  -webkit-animation: eclair3 0.8s infinite;
+  /* Safari 4+ */
+  -moz-animation: eclair3 0.8s infinite;
+  /* Fx 5+ */
+  -o-animation: eclair3 0.8s infinite;
+  /* Opera 12+ */
+  animation: eclair3 0.8s infinite;
+  /* IE 10+, Fx 29+ */
+}
+
+@keyframes eclair3 {
+  0% {
+    transform: translate(0px, 0%);
+  }
+  50% {
+    transform: translate(5px, -5px);
+  }
+  100% {
+    transform: translate(0px, 0%);
+  }
+}
+#eclair4 {
+  transform-origin: center;
+  -webkit-animation: eclair4 1s infinite;
+  /* Safari 4+ */
+  -moz-animation: eclair4 1s infinite;
+  /* Fx 5+ */
+  -o-animation: eclair4 1s infinite;
+  /* Opera 12+ */
+  animation: eclair4 1s infinite;
+  /* IE 10+, Fx 29+ */
+}
+
+@keyframes eclair4 {
+  0% {
+    transform: translate(-25px, 2.5%);
+  }
+  50% {
+    transform: translate(-20px, 2%);
+  }
+  100% {
+    transform: translate(-25px, 2.5%);
+  }
+}
 html.popup body {
   width: 480px;
   height: auto;
@@ -549,8 +649,13 @@ body .wrapper {
 }
 body .wrapper .animation {
   width: 50vw;
+  text-align: center;
   height: auto;
   margin: 0 auto 2.5vw auto;
+}
+body .wrapper .animation svg {
+  width: auto;
+  max-height: 33.33vh;
 }
 body .wrapper .fact {
   margin-bottom: 2vw;

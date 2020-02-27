@@ -56,8 +56,14 @@ body {
 
         .animation {
             width: 50vw;
+            text-align: center;
             height: auto;
             margin: 0 auto 2.5vw auto;
+
+            svg{
+                width: auto;
+                max-height: 33.33vh;
+            }
         }
 
         .fact {
