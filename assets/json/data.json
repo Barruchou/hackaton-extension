@@ -1,206 +1,32 @@
 [
   {
-    "image": "./../assets/svg/fridge.svg",
-    "fact": "Un ordinateur emet 169kg de CO2 sur l’ensemble de son cycle de vie.",
-    "tip": "Privilégiez les appareils reconditionnés (backmarket...)",
-    "category": "Impact environnement"
-  },
-  {
-    "image": "./../assets/svg/fridge.svg",
-    "fact": "10g de Co2 c'est ce qu'emet une seule recherche sur Google. Chaque utilisateur de Google émet donc environ 10kg de CO2 par an",
-    "tip": "Utiliser un moteur de recherche éthique (ecosia, lilo, ...)",
-    "category": "Moteur de recherche"
-  },
-  {
-    "image": "./../assets/svg/fridge.svg",
-    "fact": "Les vidéos porno représentent 27 % du trafic vidéo en ligne, ce qui représente 82 millions de tonnes de CO2 chaque année soit autant que le secteur de l’habitat en France.",
-    "tip": "Limiter le porno, privilégier le contact humain",
-    "category": "Info insolite"
-  },
-  {
-    "image": "./../assets/svg/fridge.svg",
-    "fact": "Envoyez 20 e-mails par jour pendant 1 an pollue autant que parcourir 1000 km en voiture",
-    "tip": "Limitez les mails inutiles",
-    "category": "Services mail"
-  },
-  {
-    "image": "./../assets/svg/computer.svg",
+    "image": "./../assets/svg/km.svg",
     "fact": "15 000 km c'est la distance moyenne parcourue par une donnée numérique (mail, téléchargement, vidéo, requête web…).",
-    "tip": "Réduisez au maximum le transfert de données, notamment la vidéo et la photo via WhatsApp, Messenger, etc. lorsque ce n’est pas en local (wifi, ethernet).",
+    "tip": "Réduisez au maximum le transfert de données, notamment la vidéo et la photo via WhatsApp, Messenger, etc.",
     "category": "Conso données, Info insolite"
   },
   {
-    "image": "./../assets/svg/computer.svg",
-    "fact": "177 tonnes de CO2 c'est ce qu'emet un utilisateur de Youtube chaque année en visonnant des vidéos.",
-    "tip": "Réduire la qualité en 720p au lieu de 1080/2040p",
-    "category": "Impact environnement"
-  },
-  {
-    "image": "./../assets/svg/computer.svg",
-    "fact": "En moyenne, il faut mobiliser de 50 à 350 fois leur poids en matières pour produire des appareils électriques à forte composante électronique, soit par exemple 800 kg pour un ordinateur portable et 500 kg pour une box Internet.",
-    "tip": "Osez acheter du matériel d’occasion ou reconditionné (Back Market, Fairphone, etc.).",
-    "category": "Impact environnement"
-  },
-  {
-    "image": "./../assets/svg/energy.svg",
-    "fact": "50 millions de tonnes c'est le poids des DEEE produits chaque année dans le monde ( soit 5000 Tour Eiffel )",
-    "tip": "Luttez contre l’obsolescence programmée, en privilégiant les équipements les plus durables, qui sont solides, réparables et vous tiendrons longtemps.",
-    "category": "Impact environnement"
-  },
-  {
-    "image": "./../assets/svg/energy.svg",
-    "fact": "Aujourd'hui, la France ne recycle que 6% des smartphones.",
-    "tip": "Coupez votre téléphone la nuit pour économiser sa batterie, vous n’en dormirez que mieux !",
-    "category": "Impact environnement"
-  },
-  {
-    "image": "./../assets/svg/energy.svg",
-    "fact": "Une recherche sur le moteur Google consommerait autant d'électricité que si vous laissiez une ampoule allumée chez vous pendant une heure.",
-    "tip": "Utiliser un moteur de recherche éthique (ecosia, lilo, ...)",
-    "category": "Impact environnement, Moteur de recherche"
-  },
-  {
-    "image": "./../assets/svg/energy.svg",
-    "fact": "70% des DEEE font l'objet d'un traffic dans le monde et sont exportés illégalement vers l'Afrique, l'Inde, Pakistant et la Thaïlande",
-    "tip": "Faites réparer vos appareils, et lorsqu’ils vous lâchent, pensez à vous tourner vers les organismes revalorisant le matériel sortant, en les revendant s’ils fonctionnent encore (Fnac Reprise, Darty, Back Market, Magic Recyle), ou en les donnant pour être recyclés (Emmaüs, Les Ateliers du Bocage, etc.)",
-    "category": "Impact environnement"
-  },
-  {
-    "image": "./../assets/svg/energy.svg",
-    "fact": "La facture énergétique des datacenters en Europe de l'ouest aurait atteint la somme de 4,9 milliards d'euros et aux Etats-Unis, ils consomment 3% de l'énergie du pays.",
-    "tip": "Supprimez vos vieux Skyblog oubliés ou vos vidéos sur YouTube : stockés sur des serveurs, ils “polluent pour rien” et pourraient bien vous rattraper un jour…",
-    "category": "Economie"
-  },
-  {
-    "image": "./../assets/svg/energy.svg",
-    "fact": "Télécharger la version électronique d’un quotidien consomme autant d’électricité que de faire une lessive.",
-    "tip": "Parfois… imprimez ! Cela semble fou, pourtant l’Ademe indique que pour les documents de plus de quatre pages, qui prendraient plus de 15 minutes à lire, il serait préférable de les imprimer (en noir et blanc, recto verso et deux pages par face) plutôt que de les lire devant son écran.",
-    "category": "Impact environnement, Info insolite"
-  },
-  {
-    "image": "./../assets/svg/energy.svg",
+    "image": "./../assets/svg/cars.svg",
     "fact": "L'empreinte carbone mondiale annuelle du spam équivaut à 3 millions de voitures sur la route chaque année.",
     "tip": "Utilisez un logiciel antispam, et videz régulièrement votre corbeille et votre dossier de spams.",
     "category": "Impact environnement"
   },
   {
     "image": "./../assets/svg/energy.svg",
-    "fact": "La fabrication de l'électricité consommée par un petit centre informatique (100 serveurs) émet environ 300 tonnes équivalent carbone par an, soit la consommation annuelle de 300 allers-retours Paris-Boston.",
-    "tip": "Luttez contre l’obsolescence programmée, en privilégiant les équipements les plus durables, qui sont solides, réparables et vous tiendrons longtemps.",
-    "category": "Impact environnement, Info insolite"
-  },
-  {
-    "image": "./../assets/svg/energy.svg",
-    "fact": "Chaque mail envoyé est égal à 4g de CO2",
-    "tip": "Faire le tri, en supprimant certains mails est indispensable",
-    "category": "Services mail"
-  },
-  {
-    "image": "./../assets/svg/computer.svg",
-    "fact": "Multiplier par 10 le nombre des destinataires d’un mail multiplie par 4 son impact.",
-    "tip": "Réduisez au maximum les messages inutiles, notamment ceux destinés à vos collègues : privilégiez les contacts directs l’humain dans la mesure du possible, et réfléchissez bien aux destinataires en copie.",
-    "category": "Services mail"
-  },
-  {
-    "image": "./../assets/svg/computer.svg",
     "fact": "30 mails supprimés équivaut à économiser 24h de consommation d'une ampoule",
     "tip": "Utilisez une messagerie d’entreprise comme Slack, moins énergivore que les e-mails.",
     "category": "Services mail"
   },
   {
     "image": "./../assets/svg/fridge.svg",
-    "fact": "L’impact d’une requête web dépend du temps de recherche et du nombre de pages consultées. On divise par 4 les émissions de gaz à effet de serre en allant directement à l’adresse du site.",
-    "tip": "Pensez à fermer régulièrement les onglets que vous n’utilisez pas.",
-    "category": "Moteur de recherche"
-  },
-  {
-    "image": "./../assets/svg/fridge.svg",
-    "fact": "Google Chrome est le navigateur le plus énergivore",
-    "tip": "Utiliser la fonction favoris pour accéder à vos sites et non la barre de recherche cela vous permettra d'utiliser 4 fois moins d'énergies",
-    "category": "Moteur de recherche"
-  },
-  {
-    "image": "./../assets/svg/fridge.svg",
-    "fact": "Le secteur numérique est responsable de 4% des émissions de gaz à effet de serre.",
-    "tip": "Chez vous, lorsque vous n’êtes pas là, vous pouvez éteindre votre box et les autres appareils électroniques connectés qui consomment inutilement de l’énergie.",
-    "category": "Impact environnement"
-  },
-  {
-    "image": "./../assets/svg/fridge.svg",
-    "fact": "Un email stocké pendant un an génére 10g de CO2",
-    "tip": "Faire le tri, en supprimant certains mails est indispensable",
-    "category": "Services mail"
-  },
-  {
-    "image": "./../assets/svg/cars.svg",
-    "fact": "Le secteur du numérique représente 5,5% de l'électricité mondiale annuelle.",
-    "tip": "Lorsque vous quittez le bureau, pensez à éteindre votre ordinateur.",
-    "category": ""
-  },
-  {
-    "image": "./../assets/svg/cars.svg",
-    "fact": "Un destinataire en plus dans un mail = 6g de CO2/mail",
-    "tip": "Réduisez au maximum les messages inutiles, notamment ceux destinés à vos collègues : privilégiez les contacts directs l’humain dans la mesure du possible, et réfléchissez bien aux destinataires en copie.",
-    "category": "Services mail"
-  },
-  {
-    "image": "./../assets/svg/cars.svg",
     "fact": "1 heure de vidéo visionnée sur smartphone = la même consommation d’énergie qu’un réfrigérateur allumé pendant un an",
     "tip": "Pensez à regardez vos séries en basse définition ! En streaming, le fait de regarder un film en basse définition permet de consommer quatre à dix fois moins d’énergie qu’un visionnage du même fichier en haute définition.",
     "category": "Impact environnement, Info insolite"
   },
   {
-    "image": "./../assets/svg/cars.svg",
-    "fact": "La numérique émet 4 fois plus de CO2 que la France ( 0,9% → 3,8% )",
-    "tip": "Supprimer les applications non utilisés sur smartphone",
-    "category": "Impact environnement"
-  },
-  {
-    "image": "./../assets/svg/cars.svg",
-    "fact": "126 813 600 000 : nombre de bouteilles d’un litre de CO2 émises par heure à cause des emails.",
-    "tip": "Faire le tri, en supprimant certains mails est indispensable",
-    "category": "Impact environnement, Services mail"
-  },
-  {
-    "image": "./../assets/svg/cars.svg",
-    "fact": "10 milliards : nombre d’emails envoyés toutes les heures. L’équivalent de 4 000 tonnes de pétrole ou de la production de 15 centrales nucléaires en une heure.",
-    "tip": "Réduisez au maximum les messages inutiles, notamment ceux destinés à vos collègues : privilégiez les contacts directs l’humain dans la mesure du possible, et réfléchissez bien aux destinataires en copie.",
-    "category": "Services mail"
-  },
-  {
-    "image": "./../assets/svg/cars.svg",
-    "fact": "19 g : émission CO2 d’un email avec une pièce-jointe d’un méga octet.",
-    "tip": "Compressez vos fichiers si vous les envoyez par e-mail.",
-    "category": "Services mail"
-  },
-  {
-    "image": "./../assets/svg/cars.svg",
-    "fact": "33 : nombre d’emails envoyés en moyenne par jour par un salarié d’une entreprise de moins de 100 personnes en France. Soit l’équivalent en émissions de CO2 de 1 000 km parcourus en voiture.",
-    "tip": "Réduisez au maximum les messages inutiles, notamment ceux destinés à vos collègues : privilégiez les contacts directs l’humain dans la mesure du possible, et réfléchissez bien aux destinataires en copie.",
-    "category": "Services mail"
-  },
-  {
-    "image": "./../assets/svg/cars.svg",
-    "fact": "L’utilisation quotidienne des outils numériques est responsable de 55 % de la consommation énergétique",
-    "tip": "Désactiver les notifications non nécessaires",
-    "category": "Impact environnement"
-  },
-  {
-    "image": "./../assets/svg/cars.svg",
-    "fact": "240 milliards de mails envoyés chaque jour (hors spam) équivaut à 4000 tonnes de pétrole",
-    "tip": "Réduisez au maximum les messages inutiles, notamment ceux destinés à vos collègues : privilégiez les contacts directs l’humain dans la mesure du possible, et réfléchissez bien aux destinataires en copie.",
-    "category": "Services mail"
-  },
-  {
-    "image": "./../assets/svg/cars.svg",
+    "image": "./../assets/svg/computer.svg",
     "fact": "Un ordinateur : 240kg  de combustibles fossiles, 22kg de produits chimiques, 1,5 tonnes d'eau",
     "tip": "Luttez contre l’obsolescence programmée, en privilégiant les équipements les plus durables, qui sont solides, réparables et vous tiendrons longtemps.",
     "category": "Impact environnement"
-  },
-  {
-    "image": "./../assets/svg/computer.svg",
-    "fact": "Regarder une vidéo en streaming sur son téléphone en 4G consomme 23 fois plus d’énergie qu’en wi-fi, car le réseau mobile sollicite des antennes relais.",
-    "tip": "Pensez à regardez vos séries en basse définition ! En streaming, le fait de regarder un film en basse définition permet de consommer quatre à dix fois moins d’énergie qu’un visionnage du même fichier en haute définition.",
-    "category": "Conso données, Impact environnement"
   }
 ]

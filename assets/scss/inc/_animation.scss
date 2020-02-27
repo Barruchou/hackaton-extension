@@ -419,3 +419,43 @@ body {
 }
 
 // COMPUTER ANIMATION END
+
+// KM ANIMATION START
+@keyframes lettre {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#lettre {
+  transform-origin: center;
+  -webkit-animation: lettre 2s infinite; /* Safari 4+ */
+  -moz-animation: lettre 2s infinite; /* Fx 5+ */
+  -o-animation: lettre 2s infinite; /* Opera 12+ */
+  animation: lettre 2s infinite; /* IE 10+, Fx 29+ */
+}
+
+@keyframes lettre {
+  0% {
+    transform: translate(-80px, 0);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  50% {
+    transform: translate(0px, 0%);
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(180px, -30px);
+    opacity: 0;
+  }
+}
+
+// KM ANIMATION END
